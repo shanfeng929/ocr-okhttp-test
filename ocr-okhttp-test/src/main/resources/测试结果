@@ -1,0 +1,39 @@
+appkey错误：
+{
+    "code": -2,
+    "msg": "APPKEY that does not exist"
+}
+
+无body：
+{
+    "message": "got body error",
+    "returncode": 101
+}
+
+body里无image_base64：
+{
+    "message": "request has no image_base64",
+    "returncode": 102
+}
+
+无法识别：
+{
+    "message": "can't recognize the idcard",
+    "returncode": 103
+}
+
+正确返回：
+{
+	"message": "OK",
+	"returncode": 0,
+	"result": {
+		"name": "郑燕彬",
+		"expirydate": "20060525-20160525",
+		"idnum": "445281198606095334",
+		"issueauthority": "广州市公安局井禹分局",
+		"nation": "汉",
+		"birth": "19860609",
+		"address": "广州市大学城外环东路132号",
+		"sex": "男"
+	}
+}
